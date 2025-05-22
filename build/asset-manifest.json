@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chetna-modern-portfolio/static/css/main.daa4a81f.css",
+    "main.js": "/chetna-modern-portfolio/static/js/main.553fcf45.js",
+    "index.html": "/chetna-modern-portfolio/index.html",
+    "main.daa4a81f.css.map": "/chetna-modern-portfolio/static/css/main.daa4a81f.css.map",
+    "main.553fcf45.js.map": "/chetna-modern-portfolio/static/js/main.553fcf45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daa4a81f.css",
+    "static/js/main.553fcf45.js"
+  ]
+}

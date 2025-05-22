@@ -1,0 +1,45 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0F0F1A;
+  color: white;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+.intro {
+  max-width: 50%;
+}
+.highlight {
+  color: #A855F7;
+}
+.typing {
+  color: #A855F7;
+  border-right: 2px solid white;
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.btn {
+  background-color: #A855F7;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2rem;
+  border-radius: 9999px;
+}
+.photo img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border: 5px solid #A855F7;
+}
