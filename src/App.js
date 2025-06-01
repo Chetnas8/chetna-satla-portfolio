@@ -4,7 +4,7 @@ import profile from "./assets/chetna-photo.jpg";
 import umassLogo from "./assets/logos/umass_logo.png";
 import puneLogo from "./assets/logos/pune_logo.png";
 import Skills from "./Skills";
-import Projects from "./Projects"; // 👈 Import the Projects component
+import Projects from "./Projects";
 import Publication from "./Publication";
 import BeyondWork from "./BeyondWork";
 import Contact from "./Contact";
@@ -20,10 +20,17 @@ function App() {
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#Publication">Publication</a></li>
-          <li><a href="#beyond">BeyondWork</a></li>
+          <li><a href="#publication">Publication</a></li>
+          <li><a href="#beyond">Beyond Work</a></li>
         </ul>
-        <a href="https://github.com/Chetnas8" className="github-button">GitHub Profile</a>
+        <a
+          href="https://github.com/Chetnas8"
+          className="github-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub Profile
+        </a>
       </nav>
 
       {/* HERO SECTION */}
@@ -36,7 +43,14 @@ function App() {
             With a passion for learning, I am dedicated to delivering high-quality results.
             With a positive attitude and a growth mindset, I am ready to make a meaningful contribution.
           </p>
-          <a className="resume-btn" href="./Chetna_S_Resume.pdf" download>Check Resume</a>
+          <a
+            className="resume-btn"
+            href="./Chetna_S_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Check Resume
+          </a>
         </div>
         <div className="hero-img">
           <img src={profile} alt="Chetna Satla" />
@@ -73,6 +87,7 @@ function App() {
       <section id="experience" className="section">
         <h2 className="section-title">Professional Experience</h2>
         <div className="timeline">
+          {/* Experience 1 */}
           <div className="timeline-item">
             <div className="timeline-dot" />
             <div className="timeline-content">
@@ -80,15 +95,16 @@ function App() {
               <span className="duration">Sep 2022 – Sep 2024</span>
               <ul>
                 <li>Delivered Oracle HCM solutions (Payroll, Absence, OTL) and owned full product lifecycle: requirements → user stories → testing → UAT → Go-live → Hypercare, reducing manual processing by 80% and errors by 70%.</li>
-                <li>Configured end-to-end payroll flows (Calculate Payroll, Prepayment) for UAE, Spain, and India cycles. Set up payroll elements including Salary, Housing, Transportation, Overtime, Deduction, Leave Encashment, Contributions.</li>
-                <li>Developed Fast Formula for earnings/deductions, including conditional eligibility, thresholds, automated schedules, alerts, and audit checkpoints, achieving 99.5% payroll accuracy.</li>
-                <li>Configured absence plans across regions (Annual, Sick, Maternity, LWOP) with custom Fast Formula for accrual rules, carryover limits, and proration for hires/terminations.</li>
-                <li>Implemented BPM approval workflows with conditional routing/escalation. Managed data migration using HDL with validations and conducted end-to-end testing with HR, Finance, Payroll teams.</li>
+                <li>Configured end-to-end payroll flows for UAE, Spain, and India cycles. Set up payroll elements including Salary, Housing, Transportation, Overtime, Deduction, Leave Encashment, Contributions.</li>
+                <li>Developed Fast Formula for earnings/deductions, achieving 99.5% payroll accuracy.</li>
+                <li>Configured absence plans with custom Fast Formula for accrual rules and proration.</li>
+                <li>Implemented BPM approval workflows and managed data migration using HDL.</li>
               </ul>
               <p><strong>Skills:</strong> • Oracle HCM Cloud • Fast Formula • Payroll • HDL • Absence Management • BPM Workflow</p>
             </div>
           </div>
 
+          {/* Experience 2 */}
           <div className="timeline-item">
             <div className="timeline-dot" />
             <div className="timeline-content">
@@ -96,22 +112,23 @@ function App() {
               <span className="duration">Jun 2022 – Aug 2022</span>
               <ul>
                 <li>Collaborated with cross-functional teams to enhance system efficiency and resolved 65% of issues within 24 hours.</li>
-                <li>Conducted extensive data analysis, reporting, QA, and supported ongoing enhancements.</li>
-                <li>Created technical documentation, process flows, and user guides; led client demos and knowledge transfers.</li>
+                <li>Conducted data analysis, reporting, QA, and supported ongoing enhancements.</li>
+                <li>Created technical documentation and led client demos.</li>
               </ul>
               <p><strong>Skills:</strong> • QA Testing • Documentation • Support Tickets • Knowledge Transfer • Process Flows</p>
             </div>
           </div>
 
+          {/* Experience 3 */}
           <div className="timeline-item">
             <div className="timeline-dot" />
             <div className="timeline-content">
               <h3>Data Analyst Intern – Larsen & Toubro Defence, Surat</h3>
               <span className="duration">Dec 2021 – May 2022</span>
               <ul>
-                <li>Built and maintained ETL pipelines to automate data ingestion/transformation, enhancing reliability.</li>
+                <li>Built and maintained ETL pipelines to automate data ingestion.</li>
                 <li>Performed data cleaning, transformation, and validation; reduced inconsistencies by 20%.</li>
-                <li>Developed interactive Power BI dashboards and SQL reports for real-time decision-making and performance monitoring.</li>
+                <li>Developed Power BI dashboards and SQL reports for performance monitoring.</li>
               </ul>
               <p><strong>Skills:</strong> • ETL • Power BI • SQL • Data Cleaning • Performance Dashboards</p>
             </div>
@@ -122,17 +139,17 @@ function App() {
       {/* PROJECTS SECTION */}
       <Projects />
 
-      {/*publication*/}
+      {/* PUBLICATION SECTION */}
       <Publication />
 
       {/* SKILLS SECTION */}
       <Skills />
-      
-      {/*Beyond work*/}
+
+      {/* BEYOND WORK SECTION */}
       <BeyondWork />
 
-      {/*Contact*/}
-      <Contact/>
+      {/* CONTACT SECTION */}
+      <Contact />
     </div>
   );
 }
