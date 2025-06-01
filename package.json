@@ -2,10 +2,11 @@
   "name": "chetna-modern-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Chetnas8.github.io/chetna-modern-portfolio",
+  "homepage": "https://chetnas8.github.io/chetna-satla-portfolio",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^7.6.1",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
