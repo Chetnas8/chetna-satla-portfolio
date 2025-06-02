@@ -45,11 +45,8 @@ function App() {
           </p>
           <a
             className="resume-btn"
-<<<<<<< HEAD
             href="https://github.com/Chetnas8/chetna-satla-portfolio/blob/main/public/Chetna_S_Resume.pdf"
-=======
             href="./Chetna_S_Resume.pdf"
->>>>>>> 63ae017624fb6587e191ff5cfc522461953f3f89
             target="_blank"
             rel="noopener noreferrer"
           >
