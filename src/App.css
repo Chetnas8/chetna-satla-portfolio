@@ -76,11 +76,8 @@ body {
 }
 
 .hero-text h1 {
-<<<<<<< HEAD
   font-size: 3.5rem;
-=======
   font-size: 2.5rem;
->>>>>>> 63ae017624fb6587e191ff5cfc522461953f3f89
   white-space: nowrap;
   margin: 0;
 }
