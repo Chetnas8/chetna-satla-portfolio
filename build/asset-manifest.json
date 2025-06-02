@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/chetna-satla-portfolio/static/css/main.41dfce94.css",
+    "main.js": "/chetna-satla-portfolio/static/js/main.470c0e80.js",
+    "static/media/image3.jpg": "/chetna-satla-portfolio/static/media/image3.7561a1d0c1594f340cde.jpg",
+    "static/media/image1.jpg": "/chetna-satla-portfolio/static/media/image1.238381ebcc9f9cf6ac77.jpg",
+    "static/media/image2.jpg": "/chetna-satla-portfolio/static/media/image2.902dc4ab012614286ef1.jpg",
+    "static/media/chetna-photo.jpg": "/chetna-satla-portfolio/static/media/chetna-photo.8fd019f5caf34dae74bb.jpg",
+    "static/media/umass_logo.png": "/chetna-satla-portfolio/static/media/umass_logo.a77a57041825c00bcdd2.png",
+    "static/media/pune_logo.png": "/chetna-satla-portfolio/static/media/pune_logo.30129a9985488fb1ace4.png",
+    "index.html": "/chetna-satla-portfolio/index.html",
+    "main.41dfce94.css.map": "/chetna-satla-portfolio/static/css/main.41dfce94.css.map",
+    "main.470c0e80.js.map": "/chetna-satla-portfolio/static/js/main.470c0e80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41dfce94.css",
+    "static/js/main.470c0e80.js"
+  ]
+}

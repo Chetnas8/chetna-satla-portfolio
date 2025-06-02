@@ -36,7 +36,14 @@ function App() {
             With a passion for learning, I am dedicated to delivering high-quality results.
             With a positive attitude and a growth mindset, I am ready to make a meaningful contribution.
           </p>
-          <a className="resume-btn" href="./Chetna_S_Resume.pdf" download>Check Resume</a>
+          <a
+            className="resume-btn"
+            href="https://github.com/Chetnas8/chetna-satla-portfolio/blob/main/public/Chetna_S_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Check Resume
+          </a>
         </div>
         <div className="hero-img">
           <img src={profile} alt="Chetna Satla" />
@@ -122,17 +129,17 @@ function App() {
       {/* PROJECTS SECTION */}
       <Projects />
 
-      {/*publication*/}
+      {/* PUBLICATION SECTION */}
       <Publication />
 
       {/* SKILLS SECTION */}
       <Skills />
-      
-      {/*Beyond work*/}
+
+      {/* BEYOND WORK SECTION */}
       <BeyondWork />
 
-      {/*Contact*/}
-      <Contact/>
+      {/* CONTACT SECTION */}
+      <Contact />
     </div>
   );
 }
