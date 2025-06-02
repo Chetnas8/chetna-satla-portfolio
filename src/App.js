@@ -46,7 +46,6 @@ function App() {
           <a
             className="resume-btn"
             href="https://github.com/Chetnas8/chetna-satla-portfolio/blob/main/public/Chetna_S_Resume.pdf"
-            href="./Chetna_S_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
